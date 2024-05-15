@@ -24,8 +24,6 @@ namespace Team4.models
             this.userid = userid;
             this.message = message;
         }
-
-        
        
         public long getRoomid()
         {
