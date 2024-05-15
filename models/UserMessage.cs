@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Team4.models
 {
-    public class Message
+    public class UserMessage
     {
         private long roomid;
 
@@ -17,7 +17,7 @@ namespace Team4.models
         private string message;
 
         private DateTime writeDate;
-        public Message(long roomid, long msgid, long userid, string message) 
+        public UserMessage(long roomid, long msgid, long userid, string message) 
         {
             this.roomid = roomid;
             this.msgid = msgid;
