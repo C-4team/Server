@@ -16,6 +16,7 @@ namespace Team4.models
 
         private string message;
 
+        private DateTime writeDate;
         public Message(long roomid, long msgid, long userid, string message) 
         {
             this.roomid = roomid;
@@ -24,10 +25,8 @@ namespace Team4.models
             this.message = message;
         }
 
-        public long getId() 
-        {
-            return roomid;
-        }
+        
+       
         public long getRoomid()
         {
             return roomid;
@@ -40,7 +39,13 @@ namespace Team4.models
         {
             return userid;
         }
-        
-
+        public string getMessage()
+        {
+            return message;
+        }
+        public DateTime getWriteDate()
+        {
+            return writeDate;
+        }
     }
 }
