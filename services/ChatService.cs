@@ -52,7 +52,14 @@ namespace Team4.services
 
             }
         }
-        public void TCPDeamon()
+        public void TCPReadDeamon()
+        {
+            while(true)
+            {
+
+            }
+        }
+        public void TCPWriteDeamon()
         {
 
         }
