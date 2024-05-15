@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Team4.models
 {
+    // UserModel로 Spring Model로 생각하면 됨.
     public class User
     {   
         
