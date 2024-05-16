@@ -52,7 +52,8 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="models\Message.cs" />
+    <Compile Include="models\Group.cs" />
+    <Compile Include="models\UserMessage.cs" />
     <Compile Include="models\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -16,7 +16,7 @@ namespace Team4.models
 
         private string password;
         
-        public User(int id, string username, string password)
+        public User(long id, string username, string password)
         {
             this.id = id;
             this.username = username;
@@ -27,5 +27,11 @@ namespace Team4.models
         public string Username { get { return username;} }
         public string Password { get { return password;} }
       
+
+        public static User parseUser(string bytes)
+        {
+            string[] userInfo = bytes.Split('|');
+            return new User(long.Parse(userInfo[0]), userInfo[1], userInfo[2]);
+        }
     }
 }
