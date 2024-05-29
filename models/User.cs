@@ -23,9 +23,18 @@ namespace Team4.models
             this.password = password;
         }
 
-        public long Id { get { return id; } }
-        public string Username { get { return username;} }
-        public string Password { get { return password;} }
+        public long Id { 
+            get { return id; }
+            set { id = value; }
+        }
+        public string Username {
+            get { return username;}
+            set { username = value; }
+        }
+        public string Password { 
+            get { return password;}
+            set { password = value; }
+        }
 
         // 여기 부분 수정
         public override string ToString()

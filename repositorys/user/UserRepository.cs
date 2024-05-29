@@ -66,7 +66,7 @@ namespace Team4
                 while ((line=reader.ReadLine()) != null)
                 {
                     var user = User.parseUser(line);
-                    if (user.Id = id) return user;
+                    if (user.Id == id) return user;
                 }
             }
             return null;  // 사용자 찾지 못한 경우

@@ -1,0 +1,11 @@
+D:\3-1\soft\TALK\Server-main\Server-main\obj\Debug\Team4.csproj.AssemblyReference.cache
+D:\3-1\soft\TALK\Server-main\Server-main\obj\Debug\Team4.csproj.SuggestedBindingRedirects.cache
+D:\3-1\soft\TALK\Server-main\Server-main\obj\Debug\Team4.Form1.resources
+D:\3-1\soft\TALK\Server-main\Server-main\obj\Debug\Team4.Properties.Resources.resources
+D:\3-1\soft\TALK\Server-main\Server-main\obj\Debug\Team4.csproj.GenerateResource.cache
+D:\3-1\soft\TALK\Server-main\Server-main\obj\Debug\Team4.csproj.CoreCompileInputs.cache
+D:\3-1\soft\TALK\Server-main\Server-main\bin\Debug\Team4.exe.config
+D:\3-1\soft\TALK\Server-main\Server-main\bin\Debug\Team4.exe
+D:\3-1\soft\TALK\Server-main\Server-main\bin\Debug\Team4.pdb
+D:\3-1\soft\TALK\Server-main\Server-main\obj\Debug\Team4.exe
+D:\3-1\soft\TALK\Server-main\Server-main\obj\Debug\Team4.pdb
