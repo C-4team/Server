@@ -35,7 +35,7 @@ namespace Team4.models
             get { return password;}
             set { password = value; }
         }
-
+      
         // 여기 부분 수정
         public override string ToString()
         {
