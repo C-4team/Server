@@ -35,7 +35,7 @@ namespace Team4.models
 
         public static User parseUser(string bytes)
         {
-            string[] userInfo = bytes.Split(',');  // |에서 ,로 수정
+            string[] userInfo = bytes.Split(',');
             return new User(long.Parse(userInfo[0]), userInfo[1], userInfo[2]);
         }
     }

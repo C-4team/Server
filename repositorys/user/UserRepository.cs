@@ -88,7 +88,7 @@ namespace Team4
             using (var reader = new StreamReader(fileName))
             {
                 string line;
-                reader.ReadLine();  // 헤더 건너뛰기
+                reader.ReadLine();
                 while ((line = reader.ReadLine()) != null)
                 {
                     var user = User.parseUser(line);
