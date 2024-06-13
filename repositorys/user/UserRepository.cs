@@ -14,7 +14,6 @@ namespace Team4
     {
         const string fileName = "./user.csv";
 
-        // 여기부터 추가 - 5/28(화)
         public UserRepository()
         {
             // 파일이 없으면 생성 & 헤더 추가
@@ -49,7 +48,7 @@ namespace Team4
             // 변경된 사용자 정보 파일에 씀
             using (var writer = new StreamWriter(fileName, false))
             {
-                writer.WriteLine("id,username,password");
+                writer.WriteLine("valid,id,username,password");
                 foreach(var user in users)
                 {
                     writer.WriteLine(user.ToString());
@@ -100,7 +99,7 @@ namespace Team4
             // 변경된 사용자 정보 파일에 씀
             using (var writer = new StreamWriter(fileName, false))
             {
-                writer.WriteLine("id,username,password");
+                writer.WriteLine("valid,id,username,password");
                 foreach (var user in users)
                 {
                     writer.WriteLine(user.ToString());
