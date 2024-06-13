@@ -8,19 +8,27 @@ namespace Team4.models
 {
     // UserModel로 Spring Model로 생각하면 됨.
     public class User
-    {   
-        
+    {
+        private int valid;  // 로그인/회원가입 확인용
+
         private long id;
 
         private string username;
 
         private string password;
         
-        public User(long id, string username, string password)
+        public User(int valid, long id, string username, string password)
         {
+            this.valid = valid;
             this.id = id;
             this.username = username;
             this.password = password;
+        }
+
+        public int Valid
+        {
+            get { return valid; }
+            set { valid = value; }
         }
 
         public long Id { 
@@ -39,13 +47,13 @@ namespace Team4.models
         // 여기 부분 수정
         public override string ToString()
         {
-            return $"{id},{username},{password}";
+            return $"{valid},{id},{username},{password}";
         }
 
         public static User parseUser(string bytes)
         {
             string[] userInfo = bytes.Split(',');
-            return new User(long.Parse(userInfo[0]), userInfo[1], userInfo[2]);
+            return new User(int.Parse(userInfo[0]), long.Parse(userInfo[1]), userInfo[2], userInfo[3]);
         }
     }
 }
